@@ -40,26 +40,6 @@ Powered by Retrieval-Augmented Generation (RAG), semantic search, and Google Gem
 | Interactive Chat | Allows users to explore document content through natural language. |
 | Modern Interface | Provides a streamlined workspace with light and dark themes. |
 
-## How It Works
-
-DocMind follows a Retrieval-Augmented Generation pipeline:
-
-```mermaid
-flowchart TD
-    A[PDF Upload] --> B[Text Extraction]
-    B --> C[Text Chunking]
-    C --> D[Embedding Generation]
-    D --> E[ChromaDB Vector Storage]
-    F[User Question] --> G[Semantic Retrieval]
-    E --> G
-    G --> H[Relevant Context]
-    H --> I[Google Gemini]
-    I --> J[Generated Answer]
-    G --> K[Source Page References]
-    J --> L[Response in DocMind]
-    K --> L
-```
-
 ### RAG Pipeline
 
 1. **PDF Upload:** The user uploads a PDF document.
