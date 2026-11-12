@@ -127,6 +127,17 @@ To ensure reliability and quality of responses, I evaluated the system across mu
 | What does the document say about [topic NOT in the file]? | Responds that information wasn't found | ✅ Correct rejection |
 | Summarize page 5 in one sentence | Produces accurate, concise summary | ✅ Correct |
 
+
+## Project Screenshots
+
+### Document Upload
+
+<img src="./screenshots/document-upload.png" width="100%" alt="DocMind document upload interface" />
+
+### AI-Powered Conversation
+
+<img src="./screenshots/ai-conversation.png" width="100%" alt="DocMind AI conversation interface" />
+
 ## Current Limitations
 
 - Supports PDF documents containing extractable text.
